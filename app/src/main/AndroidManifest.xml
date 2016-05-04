@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="denisvieira.js.org.firechat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.LoginActivity"
+            android:label="@string/title_activity_log_in"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activitys.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activitys.ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:parentActivityName=".activitys.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="denisvieira.js.org.firechat.activitys.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
