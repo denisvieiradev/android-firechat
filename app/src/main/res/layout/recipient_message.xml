@@ -9,13 +9,12 @@
         android:layout_height="wrap_content"
         tools:text="Hi. How are you?"
         android:padding="8dp"
-        android:textStyle="bold"
         android:layout_marginRight="60dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="2dp"
         android:textColor="#727272"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:background="@drawable/recipient_rounded_corners"/>
 
 </RelativeLayout>

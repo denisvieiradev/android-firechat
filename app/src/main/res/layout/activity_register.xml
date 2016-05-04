@@ -28,7 +28,7 @@
         android:layout_marginRight="@dimen/log_in_margin"
         android:textColor="@color/text_color"
         android:textColorHint="@color/text_color"
-        android:hint="first name"/>
+        android:hint="First Name"/>
 
     <EditText
         android:id="@+id/userEmailRegister"
@@ -39,7 +39,7 @@
         android:layout_marginRight="@dimen/log_in_margin"
         android:textColor="@color/text_color"
         android:textColorHint="@color/text_color"
-        android:hint="email"/>
+        android:hint="Email"/>
 
     <EditText
         android:id="@+id/passWordRegister"
@@ -51,7 +51,7 @@
         android:layout_marginRight="@dimen/log_in_margin"
         android:textColor="@color/text_color"
         android:textColorHint="@color/text_color"
-        android:hint="password"/>
+        android:hint="P"/>
 
     <Button
         android:id="@+id/registerButton"

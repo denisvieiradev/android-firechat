@@ -25,4 +25,6 @@ dependencies {
     compile 'com.firebase:firebase-client-android:2.4.0+'
     compile 'com.android.support:recyclerview-v7:23.+'
     compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:design:23.2.0'
 }

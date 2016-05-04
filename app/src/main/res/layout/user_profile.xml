@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Online"
-        android:layout_alignTop="@+id/userPhotoProfile"
+        android:layout_alignTop="@+id/userFirstNameProfile"
         android:paddingEnd="@dimen/connection_status_padding"
         android:layout_alignParentEnd="true"/>
 
