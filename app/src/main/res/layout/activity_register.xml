@@ -4,14 +4,14 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:background="@color/primary"
-                tools:context="com.marceme.marcefirebasechat.ui.RegisterActivity">
+                tools:context="denisvieira.js.org.firechat.activitys.RegisterActivity">
 
     <!-- For the purpose of the app, many attributes are not refactored-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="M Chat"
+        android:text="@string/app_name"
         android:id="@+id/titleChat"
         android:layout_gravity="center"
         android:textSize="30sp"

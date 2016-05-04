@@ -4,7 +4,7 @@
                 android:layout_height="match_parent"
               android:orientation="vertical"
               android:background="@color/primary"
-                tools:context="com.marceme.marcefirebasechat.ui.LogInActivity">
+                tools:context="denisvieira.js.org.firechat.activitys.LoginActivity">
 
 
     <!-- For the purpose of the app, many attributes are not refactored-->

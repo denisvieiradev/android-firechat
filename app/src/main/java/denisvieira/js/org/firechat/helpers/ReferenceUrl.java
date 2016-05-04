@@ -5,7 +5,7 @@ package denisvieira.js.org.firechat.helpers;
  */
 public class ReferenceUrl {
 
-    public static final String FIREBASE_CHAT_URL="androidfirechat.firebaseio.com"; //Your app main firebase url
+    public static final String FIREBASE_CHAT_URL="https://androidfirechat.firebaseio.com/"; //Your app main firebase url
     public static final String CHILD_USERS="users";
     public static final String CHILD_CHAT="chat";
     public static final String CHILD_CONNECTION="connection";
