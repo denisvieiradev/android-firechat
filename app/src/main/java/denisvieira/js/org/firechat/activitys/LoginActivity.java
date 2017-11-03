@@ -31,8 +31,8 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
 
-        // Hide action bar
-        this.getActionBar().hide();// Handel this carefully
+        // NullPointer
+        //this.getActionBar().hide();// Handel this carefully
 
         // Initialize
         mUserEmail =(EditText)findViewById(R.id.userEmailChat);
