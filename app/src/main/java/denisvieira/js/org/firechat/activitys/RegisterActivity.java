@@ -38,8 +38,8 @@ public class RegisterActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        // Hide action bar
-        this.getActionBar().hide();//Handel this carefully
+        // Nullpointer
+        //this.getActionBar().hide();//Handel this carefully
 
         // Initialize
         mUserFirstNameRegister=(EditText)findViewById(R.id.userFirstNameRegister);
